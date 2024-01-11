@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../style.css" />
     <!-- icons -- boxicon -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -66,8 +66,8 @@
                 <a href="http://wa.me/+919150969923" class="home_social_icon " data-aos="fade-down"  data-aos-delay="350"><i class='bx bxl-whatsapp'></i></a>
               
             </div>
-            <div class="home_img" data-aos="fade-down" data-aos-delay="500">
-                <img  src="../assets/img/pav.jpg" />
+            <div class="home_img" data-aos="fade-down" data-aos-delay="400">
+                <img src="./img/pav.jpg" alt="" loading="lazy">
 
             </div>
         </section>
@@ -349,14 +349,14 @@ dynamic organization.
             <h2 class="section_title" data-aos="fade-down" >Work Experience</h2>
             <div class="work_container ">
                 <div class="work_img" data-aos="fade-down" data-aos-delay="250">
-                    <img src="../assets/img/formal.avif" alt="" />
+                    <img src="./img/work.svg" alt="" />
                 </div>
-                <div class="work1">
-                    <div class="job work_data " data-aos="fade-down" data-aos-delay="250">
+                <div class="">
+                    <div class="job " data-aos="fade-down" data-aos-delay="250">
                         <h3>Project Engineer</h3>
                         <p class="company">PalC Networks</p>
                         <p class="date">August 2022 - April 2023</p>
-                        <ul class="description ">
+                        <ul class="description">
                             
                         <li>I am responsible for handling ,Automation in python, networking, protocols, manual testing, c programming and I support in Java Project, I had a good track record  </li>
                         <li> I have a background in Front-End development, employing tools such as HTML, CSS, Bootstrap, and JavaScript in my projects. </li>
@@ -373,21 +373,21 @@ dynamic organization.
         <!-- Projects Section -->
         <section class="project section bdgrid" id="project">
             <h2 class="section_title" data-aos="fade-down" >Projects</h2>
-            <div class="work1">
-                <div class="project-card work_data " data-aos="fade-down" data-aos-delay="250">
+            <div class="">
+                <div class="project-card " data-aos="fade-down" data-aos-delay="250">
                     <h3>Packet Analyser</h3>
                     <h5>Palc Networks</h5>
-                    <p>
+                    <ul class="description">
                         <li>The primary aim of this project is to examine the packet flow originating from a stress generator (vflow) to a packet collector.</li>
                             <li>The decoded packets are forwarded to a message queue (specifically, NSQ). </li>
                             <li>We then tally the packet count and transmit it to a MySQL database. </li>
                             <li>Subsequently, all the decoded packets are collected, and we utilize Grafana to visually present the gathered data in graphical form.</li>
     
-                    </p>
+                    </ul>
             </div>
             </div>
-            <div class="work1">
-                <div class="project-card home_data work_data " data-aos="fade-down" data-aos-delay="250">
+            <div class="">
+                <div class="project-card home_data" data-aos="fade-down" data-aos-delay="250">
                     <h3>SBkitPro Webpage</h3>
                     <p>
                         <li>The SBkitPro website is a professionally designed platform created with HTML, CSS, and Bootstrap.  </li>
@@ -472,7 +472,7 @@ dynamic organization.
     </main>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="../assets/js/main.js"></script>
+    <script src="../main.js"></script>
     <script>
         AOS.init({
             duration: 1000,

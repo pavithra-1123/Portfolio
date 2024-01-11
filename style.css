@@ -414,7 +414,7 @@ img{
 .work1{
     margin: 4rem;
 }
-.work_data{
+/* .work_data{
     margin-top: var(--mb-3);
     display: inline-block;
     justify-content: space-between;
@@ -437,7 +437,7 @@ img{
     border-radius: 0.5rem;
     box-shadow: 0 3px 15px rgba(14, 36, 49, 0.15);
     
-}
+} */
 /* #work {
     margin: 20px;
     margin-right: 4rem;
@@ -469,29 +469,30 @@ h2 {
 
 .description {
     margin-top: 10px;
-    /* justify-content: center; */
-    margin-right: 2rem;
-    margin-left: 2rem;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+    list-style-type: disc;
    
 }
 
 /* Project */
 
-#project{
+/* #project{
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin-top: 20px;
     font-family: var(--body-font);
-}
+} */
 
-.project-card {
+/* .project-card {
     margin-bottom: 20px;
     padding: 15px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-}
+} */
 
 .project-card h3 {
     color:#8e0af3;
@@ -660,8 +661,9 @@ h2 {
         margin-right: var(--mb-4);
     }
     .home_img{
-        width: 460px;
+        width: 350px;
         bottom: 5%;
+        position: absolute;
     }
     .home_img img{
         width: 100%;
@@ -673,7 +675,8 @@ h2 {
 
     }
     .about_img svg{
-        width: 450px;
+        width: 440px;
+       
     }
 
     .work_container{
@@ -684,6 +687,10 @@ h2 {
     .work_data{
         margin: auto;
         width: 100%;
+    }
+    .work_img img{
+        width: 70%;
+        margin-bottom: 5%;
     }
     .contact_form{
         width: 400px;
