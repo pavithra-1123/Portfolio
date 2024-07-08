@@ -191,20 +191,77 @@ img{
 .home_social{
     display: flex;
     flex-direction: column;
-    margin-top: -5rem;
+    margin-top: 0;
 
 }
 .home_social_icon{
      width: max-content;
      margin-bottom: var(--mb-2);
-     font-size: 1.5rem;
+     font-size: 2.5rem;
      color: var(--second-color);
      
 }
 .home_social_icon:hover{
     color: var(--first-color);
 }
-.home_img{
+
+.home_img {
+    position: absolute;
+    right: 0;
+    left: 60%;
+    bottom: 40%;
+    width: 300px;
+    max-width: 100%;
+    
+}
+
+.home_img img {
+    width: 100%;
+    border-radius: 50%;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .home_img {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+    }
+    
+    .home_img img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .home_title{
+       
+        margin-top: 4rem;
+    }
+    .home_img {
+        display:0;
+        left: 10%;
+    }
+    .home_img img {
+        width: 100%;
+        
+        left: 100%;
+    }
+    .home_social{
+        padding-top: 0;
+        padding-bottom: 0;
+        flex-direction: column;
+        align-self: flex-end;
+    }
+    .home_social_icon{
+        margin-bottom: 0;
+        margin-right: var(--mb-4);
+        font-size: 2rem;
+    }
+    
+}
+
+/* .home_img{
     position: absolute;
     right: 0;
     bottom: 0;
@@ -213,7 +270,7 @@ img{
 .home_img img{
     width: 100%;
     border-radius: 50%;
-   
+}   */
     /* position: fixed; */
     /* justify-content: space-between;
     background-size: cover;
@@ -229,7 +286,7 @@ img{
     position: relative; */
 
 
-}
+
 
 /* img{
     display: flex;
@@ -714,10 +771,17 @@ h2 {
         margin-left: auto;
         margin-right: auto;
     }
-    .home_img{
+
+    .home_img {
+        display:0;
         right: 8%;
     }
-    .project-card {
+    .home_img img {
+        width: 100%;
+        
+        left: 0;
+    }
+    .project-card { 
         padding: 10px;
         width: 100%;
     }
@@ -725,5 +789,29 @@ h2 {
         padding: 10px;
         width: 100%;
     }
+    /* .home_title{
+       
+        margin-top: 4rem;
+    }
+    .home_img {
+        display:0;
+        left: 10%;
+    }
+    .home_img img {
+        width: 100%;
+        
+        left: 100%;
+    }
+    .home_social{
+        padding-top: 0;
+        padding-bottom: 0;
+        flex-direction: column;
+        align-self: flex-end;
+    }
+    .home_social_icon{
+        margin-bottom: 0;
+        margin-right: var(--mb-4);
+        font-size: 2rem;
+    } */
 }
  
