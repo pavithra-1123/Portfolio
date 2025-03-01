@@ -442,17 +442,17 @@ img{
     width: 95%;
 }
 
-.skill_css,.skill_bs,.skill_java,.skill_sb,.skill_orc{
+.skill_css,.skill_bs,.skill_sql,.skill_java,.skill_sb,.skill_orc,.skill_python{
     width: 80%;
 }
-.skill_js ,.skill_sql, .skill_c , .skill_ReactJs,.skill_net,.skill_moc,.skill_jen{
+ .skill_c , .skill_ReactJs,.skill_net,.skill_moc,.skill_jen,.skill_sec{
     width: 70%;
 }
 
-.skill_python,.skill_ds,.skill_hib{
+.skill_ds,.skill_hib{
     width: 65%;
 }
-.skill_sec{
+.skill_js , .skill_play{
     width: 60%;
 }
 
@@ -520,7 +520,8 @@ h2 {
 }
 
 .date {
-    color: #666;
+    color: #191818;
+    font-size: medium;
     font-style: italic;
 }
 
